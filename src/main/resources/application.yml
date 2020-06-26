@@ -1,0 +1,6 @@
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/aop?createDatabaseIfNotExist=true
+    username: root
+    password: password
